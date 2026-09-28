@@ -1,6 +1,9 @@
 # Changelog
 
-## 1.5.0
+## 1.5.1
+
+- Avoid registering a missing package view directory so Laravel production view caching succeeds.
+- Synchronize Composer and module manifest versions.
 
 - Always include the host Tailwind stylesheet alongside the active theme stylesheet.
 
